@@ -1,6 +1,10 @@
 body{
 	font: 400 14px/1.3 Arial, sans-serif;
-	background-color:  #ea355a;
+	background: #1e5799;
+background: -webkit-linear-gradient(bottom left, #1e5799 0%, #fd502f 0%, #de296d 100%);
+background: -o-linear-gradient(bottom left, #1e5799 0%, #fd502f 0%, #de296d 100%);
+background: linear-gradient(to top right, #1e5799 0%, #fd502f 0%, #de296d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#de296d',GradientType=1 );
 }
 
 
@@ -147,7 +151,7 @@ textarea {
 	width: 100%;
 }
 
-.ba-dailyform__password {
+.ba-dailyform__pass {
 	width: 100%;
 }
 
