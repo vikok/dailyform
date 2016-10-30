@@ -4,7 +4,7 @@ body{
 background: -webkit-linear-gradient(bottom left, #1e5799 0%, #fd502f 0%, #de296d 100%);
 background: -o-linear-gradient(bottom left, #1e5799 0%, #fd502f 0%, #de296d 100%);
 background: linear-gradient(to top right, #1e5799 0%, #fd502f 0%, #de296d 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#de296d',GradientType=1 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endC=1olorstr='#de296d',GradientType );
 }
 
 
@@ -99,23 +99,25 @@ input[type="number"]:focus,
 input[type="tel"]:focus,
 textarea:focus,
 select:focus {
-
+	color: #BD1962;
+	border: 1px solid #BD1962;
 }
+
 textarea {
 
 }
 
 .ba-dailyform {
 	max-width: 460px;
-	min-height: 470px;
 	border-radius: 4px;
 	background-color:  #ffffff;
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 	margin: 0 auto;
+	padding: 27px 30px 58px;
 }
 
 .ba-dailyform__header {
-	padding: 11px 31px 0;
+
 }
 
 .ba-dailyform__create {
@@ -132,20 +134,20 @@ textarea {
 	color:  #797b7f;
 	font-size: 13px;
 	font-weight: 400;
-	line-height: 20px;
 }
 
 .ba-dailyform__main {
-	margin: 31px 31px;
+
 }
 
-.ba-dayliform__first-name {
+.ba-dailyform__first-name {
 	float: left;
 	width: 52%;
 }
+
 .ba-dailyform__late-name {
 	float: right;
-	width: 48%;
+	width: 45%;
 }
 .ba-dailyform__email {
 	width: 100%;
